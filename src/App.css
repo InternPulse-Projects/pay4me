@@ -1,0 +1,19 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+}
+
+/* src/index.css or src/App.css */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./assets/fonts/CabinetGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("./assets/fonts/CabinetGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* Optional: Add styles for other weights */
