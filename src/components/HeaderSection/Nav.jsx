@@ -12,7 +12,6 @@ function Nav() {
         }
       >
         Home
-        {({ isActive }) => isActive && <span className="absolute">Hello</span>}
       </NavLink>
       <NavLink
         to="about"

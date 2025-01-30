@@ -3,7 +3,7 @@ import Header from "./HeaderSection/Header";
 
 function PageLayout() {
   return (
-    <main className="flex flex-col max-w-screen-xl justify-center m-auto space-y-4 border">
+    <main className="flex flex-col max-w-screen-xl justify-center m-auto space-y-4 border-0">
       <Header />
       <Outlet />
     </main>
