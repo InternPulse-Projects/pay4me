@@ -22,7 +22,7 @@ function FAQ() {
           </span>
         </h1>
 
-        <div className="bg-[#FCFCFC] flex flex-row max-sm:flex-col sm:flex-col sm:py-4 space-y-2 space-x-10 justify-between border-0">
+        <div className="bg-[#FCFCFC] flex lg:flex-row max-sm:flex-col sm:flex-col sm:py-4 space-y-2 space-x-10 justify-between border-0">
           <img
             src={faqUser}
             alt="faq-user"
