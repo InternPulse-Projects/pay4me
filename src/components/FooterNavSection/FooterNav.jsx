@@ -5,7 +5,7 @@ import xIcon from "../../assets/xIcon.svg";
 import facebookIcon from "../../assets/facebookIcon.svg";
 import tiktokIcon from "../../assets/tiktokIcon.svg";
 import youtubeIcon from "../../assets/youtubeIcon.svg";
-import DLButtons from "../../assets/dlButtons.svg";
+// import DLButtons from "../../assets/dlButtons.svg";
 
 function FooterNav() {
   return (
@@ -54,7 +54,7 @@ function FooterNav() {
         </div>
 
         <div>
-          <img src={DLButtons} alt="download-buttons" className="w-full" />
+          {/* <img src={DLButtons} alt="download-buttons" className="w-full" /> */}
           <span className="w-full text-xs text-slate-500">
             Depending on your mobile device, download our awesome native app to
             start enjoying all the benefits of pay4Me.
