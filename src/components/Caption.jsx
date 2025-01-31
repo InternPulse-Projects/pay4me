@@ -1,5 +1,5 @@
 import propTypes from "prop-types";
-import lightning from "../assets/lightning.svg";
+import lightning from "../assets/Lightning.svg";
 function Caption({ children }) {
   return (
     <span
