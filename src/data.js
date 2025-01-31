@@ -87,3 +87,74 @@ export const offers = [
     text: "We help you get closer to your study abroad and relocation goals faster by promptly completing your payment orders for credential evaluation, immigration, and visa purposes.",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    image: "/images/testimonials/Jimmy.webp.jpg",
+    name: "Jimmy Adewole",
+    bio: "Entrepreneur",
+  },
+  {
+    id: 2,
+    image: "/images/testimonials/Palmer.jpg",
+    name: "Palmer Nicole",
+    bio: "Phd Student",
+  },
+  {
+    id: 3,
+    image: "/images/testimonials/Hannah.webp.jpg",
+    name: "Hannah Adams",
+    bio: "Senior Therapist",
+  },
+  {
+    id: 4,
+    image: "/images/testimonials/Jimmy.webp.jpg",
+    name: "Lex Brown",
+    bio: "Masters Student",
+  },
+];
+
+export const faq = [
+  {
+    id: 1,
+    question: "What is the Pay4Me App?",
+    answer: "Jimmy Adewole",
+  },
+  {
+    id: 2,
+    question: "What is the payment processing timeline on the Pay4Me App?",
+    answer: "Jimmy Adewole",
+  },
+  {
+    id: 3,
+    question: "How does the Pay4Me App work?",
+    answer: "Jimmy Adewole",
+  },
+  {
+    id: 4,
+    question: "How do I get started?",
+    answer: "Jimmy Adewole",
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    image: "/images/blogs/frame1.jpg",
+    target: "/images/blogs/targetArr.svg",
+    text: "How to Navigate International Payments for Education With Ease",
+  },
+  {
+    id: 2,
+    image: "/images/blogs/frame2.jpg",
+    target: "/images/blogs/targetArr.svg",
+    text: "Importance of getting Insurance before traveling",
+  },
+  {
+    id: 3,
+    image: "/images/blogs/frame3.jpg",
+    target: "/images/blogs/targetArr.svg",
+    text: "Overcoming Challenges in Foreign Currency Tuition Payments",
+  },
+];

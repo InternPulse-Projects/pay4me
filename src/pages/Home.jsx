@@ -1,6 +1,9 @@
+import Blog from "../components/BlogSection/Blog";
 import Brands from "../components/Brands";
+import Download from "../components/DownloadSection/Download";
 import FAQ from "../components/FAQSection/FAQ";
 import Features from "../components/FeaturesSection/Features";
+import FooterNav from "../components/FooterNavSection/FooterNav";
 import IntroSection from "../components/IntroSection";
 import Offer from "../components/OfferSection/Offer";
 import Steps from "../components/StepsSection/Steps";
@@ -18,6 +21,9 @@ function Home() {
       <Video />
       <Testimonials />
       <FAQ />
+      <Blog />
+      <Download />
+      <FooterNav />
     </section>
   );
 }

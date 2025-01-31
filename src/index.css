@@ -24,6 +24,18 @@ body {
   min-height: 100vh; */
 }
 
+/* Hide scrollbar but keep scrolling functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar ends */
+
 @font-face {
   font-family: "Cabinet Grotesk";
   src: url("./assets/fonts/CabinetGrotesk-Regular.ttf") format("truetype");
