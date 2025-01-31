@@ -1,4 +1,5 @@
 import Header from "../HeaderSection/Header";
+import Brands from "./Brands";
 import IntroSection from "./IntroSection";
 
 function Hero() {
@@ -6,6 +7,7 @@ function Hero() {
     <section className="bg-[url(/images/Hero.png)] py-10 bg-green-100">
       <Header />
       <IntroSection />
+      <Brands />
     </section>
   );
 }
