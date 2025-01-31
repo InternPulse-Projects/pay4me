@@ -1,9 +1,10 @@
-import storeIcon from "../assets/storeIcon.svg";
-import playIcon from "../assets/play-circle.svg";
-import Button from "./Button";
-import { trustedStudents } from "../data";
+import { trustedStudents } from "../../data";
+import storeIcon from "../../assets/storeIcon.svg";
+import playIcon from "../../assets/play-circle.svg";
 import HeroImage from "./HeroImage";
-import Caption from "./Caption";
+import Caption from "../Caption";
+import Button from "../Button";
+
 function IntroSection() {
   return (
     <section className="w-full px-30 py-10 sm:px-25 max-sm:px-10 gap-y-8 flex flex-col items-center border-0">
@@ -28,13 +29,13 @@ function IntroSection() {
         <Button className="w-fit bg-[#AFE274] py-3 px-4 rounded-full cursor-pointer">
           <div className="flex flex-row items-center content-center space-x-2 border-0">
             <span className="text-sm font-medium">Download app</span>
-            <img src={storeIcon} alt="store-logo" />
+            <img src={playIcon} alt="store-logo" />
           </div>
         </Button>
         <Button className="w-fit bg-[#F4F8EF] py-3 px-4 items-center rounded-full cursor-pointer border border-[#F4F8EF]">
           <div className="flex flex-row items-center content-center space-x-2 border-0">
             <span className="text-sm font-medium">Watch Demo</span>
-            <img src={playIcon} alt="store-logo" />
+            <img src={storeIcon} alt="store-logo" />
           </div>
         </Button>
       </div>

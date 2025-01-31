@@ -1,11 +1,11 @@
-import heroImage from "../assets/heroImage.png";
-import trackStarLogo from "../assets/trackstarLogo.svg";
-import googleIcon from "../assets/googleIcon.svg";
-import dollarSym from "../assets/dollarSym.svg";
-import withdraw from "../assets/withdraw.svg";
-import add from "../assets/add.svg";
-import Eye from "../assets/Eye.svg";
-import stars from "../assets/stars.svg";
+import heroImage from "../../assets/heroImage.png";
+import trackStarLogo from "../../assets/trackstarLogo.svg";
+import googleIcon from "../../assets/googleIcon.svg";
+import dollarSym from "../../assets/dollarSym.svg";
+import withdraw from "../../assets/withdraw.svg";
+import add from "../../assets/add.svg";
+import Eye from "../../assets/Eye.svg";
+import stars from "../../assets/stars.svg";
 
 function HeroImage() {
   return (

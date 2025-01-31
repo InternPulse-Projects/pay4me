@@ -1,8 +1,8 @@
-import { brands } from "../data";
+import { brands } from "../../data";
 
 function Brands() {
   return (
-    <section className="-mt-10 mb-8 px-5 border-0">
+    <section className="-mt-10 px-5 border">
       <h1 className="w-full text-center text-slate-500 text-sm py-2">
         LEADING BRAND PARTNER WITH US
       </h1>

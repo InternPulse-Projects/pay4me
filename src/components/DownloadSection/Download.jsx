@@ -1,5 +1,5 @@
 import QRScan from "../../assets/QR.svg";
-import DL from "../../assets/dlButtons.svg";
+import DownloadBlack from "../DownloadBlack";
 function Download() {
   return (
     <section className="w-full flex justify-center px-30 py-10 sm:px-25 max-sm:px-10 items-center border-0">
@@ -17,8 +17,9 @@ function Download() {
               Our custom QR code will take you to your app store to download our
               awesome native apps
             </p>
-
-            <img src={DL} alt="download" className="w-80 mt-4" />
+            <div className="w-80">
+              <DownloadBlack />
+            </div>
           </div>
 
           <div className="bg-white px-4 py-4 rounded-xl w-60">
