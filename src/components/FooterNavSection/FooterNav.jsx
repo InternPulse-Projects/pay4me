@@ -5,7 +5,7 @@ import xIcon from "../../assets/xIcon.svg";
 import facebookIcon from "../../assets/facebookIcon.svg";
 import tiktokIcon from "../../assets/tiktokIcon.svg";
 import youtubeIcon from "../../assets/youtubeIcon.svg";
-// import DLButtons from "../../assets/dlButtons.svg";
+import DownloadButtons from "../../assets/dlButtons.svg";
 
 function FooterNav() {
   return (
@@ -31,22 +31,22 @@ function FooterNav() {
           </div>
         </div>
 
-        <div className="w-full flex flex-row max-sm:grid max-sm:grid-cols-2 max-sm:space-y-4 space-x-10">
-          <div className="w-full flex flex-col space-y-4">
+        <div className="w-full grid grid-cols-4 max-sm:grid max-sm:grid-cols-2 max-sm:space-y-4 border-0">
+          <div className="flex flex-col space-y-4 border-0">
             <h1 className="font-semibold">Company</h1>
             <span className="text-xs text-slate-500">About</span>
             <span className="text-xs text-slate-500">Blog</span>
             <span className="text-xs text-slate-500">How it works</span>
             <span className="text-xs text-slate-500">Careers</span>
           </div>
-          <div className="w-full flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4">
             <h1>Resources</h1>
             <span className="text-xs text-slate-500">Android Reviews</span>
             <span className="text-xs text-slate-500">IOS Reviews</span>
             <span className="text-xs text-slate-500">Testimonials</span>
             <span className="text-xs text-slate-500">FAQs</span>
           </div>
-          <div className="w-full flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4">
             <h1>Legal</h1>
             <span className="text-xs text-slate-500">Terms of Service</span>
             <span className="text-xs text-slate-500">Terms of Service</span>
@@ -54,9 +54,11 @@ function FooterNav() {
             <span className="text-xs text-slate-500">KYC/AML Policy</span>
           </div>
 
-          <div className="w-full">
-            {/* <img src={DLButtons} alt="download-buttons" className="w-full" /> */}
-            <span className="w-full text-xs text-slate-500">
+          <div className="flex flex-col px-4 border-0">
+            <div className="border-0">
+              <img src={DownloadButtons} alt="download" />
+            </div>
+            <span className="text-xs text-slate-500">
               Depending on your mobile device, download our awesome native app
               to start enjoying all the benefits of pay4Me.
             </span>
@@ -64,11 +66,15 @@ function FooterNav() {
         </div>
       </div>
 
-      <div className="text-sm text-slate-500">© 2020 - 2024 Pay4Me, Inc.</div>
+      <div className="w-full text-center text-sm text-slate-500 border-t border-b py-10 ">
+        © 2020 - 2024 Pay4Me, Inc.
+      </div>
 
-      <div className="max-sm:full flex flex-row space-x-2 ">
-        <img src alt="logo-bottom" width={80} />
-        <span className="text-xs text-slate-500">
+      <div className="max-sm:full flex flex-row space-x-2 gap-x-2 py-4 mt-4 border-0">
+        <div className="w-fit -mt-10 border-0">
+          <img src="/images/logoLarge.png" alt="logo-bottom" className="w-25" />
+        </div>
+        <span className="w-full text-xs text-slate-500">
           Pay4Me is a financial technology company making it easier for
           international students and immigrants to pay their tuition and fees in
           minutes. We offer our products and services in partnership with
