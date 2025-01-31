@@ -5,7 +5,7 @@ import xIcon from "../../assets/xIcon.svg";
 import facebookIcon from "../../assets/facebookIcon.svg";
 import tiktokIcon from "../../assets/tiktokIcon.svg";
 import youtubeIcon from "../../assets/youtubeIcon.svg";
-import DLButtons from "../../assets/dlbuttons.svg";
+import DLButtons from "../../assets/dlButtons.svg";
 
 function FooterNav() {
   return (
