@@ -27,7 +27,7 @@ function Features() {
           What Truly sets us apart
         </p>
 
-        <div className="relative w-full flex flex-row max-sm:flex-col max-sm:space-y-4 space-x-4 gap-x-6 lg:py-20 z-50 border-0">
+        <div className="relative w-full flex flex-row max-sm:flex-col max-sm:space-y-4 space-x-4 gap-x-6 lg:py-5 z-50 lg:mb-10 border-0">
           {features.map((feature, index) => (
             <div
               key={index}
