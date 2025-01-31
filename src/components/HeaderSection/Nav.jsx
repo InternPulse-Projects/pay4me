@@ -7,7 +7,7 @@ function Nav() {
         to="home"
         className={({ isActive }) =>
           isActive
-            ? "relative text-sm px-2 py-2 font-sans"
+            ? "relative text-sm px-2 py-2 border-b-2 font-sans"
             : "text-sm px-2 py-2 font-sans hover:text-gray-100"
         }
       >

@@ -7,7 +7,7 @@ function Download() {
           <div className="flex flex-col space-y-4 border-0">
             <h1
               className="w-96 max-sm:w-full font-semibold lg:text-center md:text-center sm:text-center lg:text-4xl 
-              max-sm:text-center max-sm:text-2xl md:text-2xl sm:text-2xl"
+              max-sm:text-center max-sm:text-2xl md:text-2xl sm:text-2xl border-0 self-center"
               style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}
             >
               Download the Pay4Me app Today!
